@@ -14,7 +14,8 @@ export default class  App extends Component {
     this.state = {
       count : 0
     }
-   
+     // need a null position to pause 
+     this.counter = null
   }
    // onclick set the counter to the current number 
     // increase the count by 1 in 1000 ms
@@ -24,7 +25,11 @@ export default class  App extends Component {
       }, 1000)
     }
 
-    // need a breaking point 
+    // on click it will hold the setInterval 
+    // should not start before start 
+    pauseCount = () => {
+      clearInterval(this.counter);
+    } 
 
    
   render(){
