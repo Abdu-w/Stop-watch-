@@ -24,6 +24,8 @@ export default class  App extends Component {
       }, 1000)
     }
 
+    // need a breaking point 
+
    
   render(){
     return (
