@@ -21,6 +21,10 @@ export default class  App extends Component {
   render(){
     return (
       <div className="App">
+         <h1>{this.state.count}</h1><br></br>
+          <button className="rest" >Reset</button>
+          <button className="start">Start</button>
+          <button className="pause" >Pause</button>
 
       </div>
         
