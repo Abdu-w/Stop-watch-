@@ -16,6 +16,13 @@ export default class  App extends Component {
     }
    
   }
+   // onclick set the counter to the current number 
+    // increase the count by 1 in 1000 ms
+    startCount = () => {
+      this.counter = setInterval(()=>{
+        this.setState({count: this.state.count + 1})  
+      }, 1000)
+    }
 
    
   render(){
@@ -23,7 +30,7 @@ export default class  App extends Component {
       <div className="App">
          <h1>{this.state.count}</h1><br></br>
           <button className="rest" >Reset</button>
-          <button className="start">Start</button>
+          <button className="start" onClick={this.startCount}>Start</button>
           <button className="pause" >Pause</button>
 
       </div>
