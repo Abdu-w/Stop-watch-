@@ -2,4 +2,41 @@
   text-align: center;
 }
 
+.rest{
+  background-color: rgb(140, 140, 228);
+  border:solid rgb(130, 126, 126);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.start{
+  background-color: rgb(140, 140, 228);
+  border:solid rgb(130, 126, 126);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+
+.pause{
+  background-color: rgb(140, 140, 228);
+  border:solid rgb(130, 126, 126);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
 
