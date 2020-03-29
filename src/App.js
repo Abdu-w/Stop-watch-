@@ -41,7 +41,7 @@ export default class  App extends Component {
     return (
       <div className="App">
          <h1>{this.state.count}</h1><br></br>
-          <button className="rest" >Reset</button>
+          <button className="rest" onClick={this.resetCount} >Reset</button>
           <button className="start" onClick={this.startCount}>Start</button>
           <button className="pause"onClick={this.pauseCount} >Pause</button>
 
