@@ -30,7 +30,12 @@ export default class  App extends Component {
     pauseCount = () => {
       clearInterval(this.counter);
     } 
-
+    // set counter to 0 
+    resetCount = () => {
+      clearInterval(this.counter);
+      this.setState({ count: 0 })
+  }
+  
    
   render(){
     return (
