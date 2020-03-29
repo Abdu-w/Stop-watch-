@@ -8,9 +8,15 @@ import './App.css';
 // have a holding state
 //if click then set count to 0
 export default class  App extends Component {
-  constructor(){
-
+  constructor(props){
+    super(props) // have to if using constructor 
+    // set a state obj with count == 0
+    this.state = {
+      count : 0
+    }
+   
   }
+
    
   render(){
     return (
