@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{Component} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+// create a class obj b/c of state 
+// set a sate obj with a counter 
+// bind function increase count on click
+// have a holding state
+//if click then set count to 0
+export default class  App extends Component {
+  constructor(){
+
+  }
+   
+  render(){
+    return (
+      <div className="App">
+
+      </div>
+        
+  
+      );
+    
+  }
+  
+ 
 }
 
-export default App;
+// souces:
+// https://www.youtube.com/watch?v=NAx76xx40jM
+//https://stackoverflow.com/questions/43831783/react-stopwatch
+
